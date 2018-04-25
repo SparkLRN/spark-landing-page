@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'mixins';
+
+.main {
+    border-radius: 5px 5px 0 0;
+    margin-top: 3em;
+    padding: 0;
+    background-color: $secondary-red;
+    @include box-shadow(rgba(0,0,0,0.6));
+}
+.navbar {
+    margin: 0 -1em 0 -1em;
+    a, .navbar-toggler {
+        color: white;
+    }
+}
+.content {
+    padding: 1em;
+    margin: 0;
+}

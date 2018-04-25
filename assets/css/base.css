@@ -1,0 +1,28 @@
+/* 1: Red scheme */
+.main {
+  border-radius: 5px 5px 0 0;
+  margin-top: 3em;
+  padding: 0;
+  background-color: #b92025;
+  box-shadow: -2px 7px 66px -15px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -2px 7px 66px -15px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: -2px 7px 66px -15px rgba(0, 0, 0, 0.6); }
+
+.navbar {
+  margin: 0 -1em 0 -1em; }
+  .navbar a, .navbar .navbar-toggler {
+    color: white; }
+
+.content {
+  padding: 1em;
+  margin: 0; }
+
+/* body {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    margin: auto;
+    background-color: #f5f5f5;
+} */
+
+/*# sourceMappingURL=base.css.map */
