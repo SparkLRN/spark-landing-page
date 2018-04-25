@@ -1,21 +1,63 @@
-/* 1: Red scheme */
 .main {
   border-radius: 5px 5px 0 0;
   margin-top: 3em;
   padding: 0;
-  background-color: #b92025;
+  background-color: #ef473a;
   box-shadow: -2px 7px 66px -15px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: -2px 7px 66px -15px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: -2px 7px 66px -15px rgba(0, 0, 0, 0.6); }
 
 .navbar {
-  margin: 0 -1em 0 -1em; }
+  margin: 0 -1em 0 -1em;
+  border-radius: 5px 5px 0 0; }
   .navbar a, .navbar .navbar-toggler {
     color: white; }
 
 .content {
   padding: 1em;
   margin: 0; }
+
+/* breakpoints */
+@media only screen and (max-width: 570px) {
+  .main {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw !important; }
+
+  .navbar {
+    margin: 0 0.3em 0 0.3em; } }
+.landing {
+  min-height: 750px;
+  margin: -4.5em -2em 0 -2em;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #cb2d3e;
+  background: -webkit-linear-gradient(to top, #cb2d3e, #ef473a);
+  background: linear-gradient(to top, #cb2d3e, #ef473a); }
+
+.platforms {
+  margin: 0 -2em -0.5em -2em;
+  min-height: 450px;
+  background: #fbe9e7;
+  justify-content: center;
+  align-items: center; }
+
+.knowspark {
+  min-height: 400px;
+  margin: 0 -2em 0 -2em;
+  background: #cb2d3e;
+  background: -webkit-linear-gradient(to bottom, #cb2d3e, #ef473a);
+  background: linear-gradient(to bottom, #cb2d3e, #ef473a); }
+
+.full-footer {
+  min-height: 200px;
+  margin: -0.95em;
+  padding: 0.5em;
+  background-color: #e9eeee; }
 
 /* body {
     display: flex;

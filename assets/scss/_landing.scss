@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'mixins';
+
+.landing {
+    min-height: 750px;
+    margin: -4.5em -2em 0 -2em;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    background: $primary-color;
+    background: -webkit-linear-gradient(to top, $primary-color, $primary-light);
+    background: linear-gradient(to top, $primary-color, $primary-light);
+}

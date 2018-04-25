@@ -5,11 +5,14 @@
     border-radius: 5px 5px 0 0;
     margin-top: 3em;
     padding: 0;
-    background-color: $secondary-red;
-    @include box-shadow(rgba(0,0,0,0.6));
+    background-color: $primary-light;
+    box-shadow: -2px 7px 66px -15px rgba(0,0,0,0.6);
+    -webkit-box-shadow: -2px 7px 66px -15px rgba(0,0,0,0.6);
+    -moz-box-shadow: -2px 7px 66px -15px rgba(0,0,0,0.6);
 }
 .navbar {
     margin: 0 -1em 0 -1em;
+    border-radius: 5px 5px 0 0;
     a, .navbar-toggler {
         color: white;
     }
@@ -17,4 +20,16 @@
 .content {
     padding: 1em;
     margin: 0;
+}
+
+/* breakpoints */
+@media only screen and (max-width: 570px) {
+    .main{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw !important;
+    }
+    .navbar {
+        margin: 0 0.3em 0 0.3em;
+    }
 }

@@ -1,0 +1,9 @@
+@import 'variables';
+@import 'mixins';
+
+.full-footer {
+    min-height: 200px;
+    margin: -0.95em;
+    padding: 0.5em;
+    background-color: $secondary-light;
+}

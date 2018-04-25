@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'mixins';
+
+.knowspark {
+    min-height: 400px;
+    margin: 0 -2em 0 -2em;
+    background: $primary-color;
+    background: -webkit-linear-gradient(to bottom, $primary-color, $primary-light);
+    background: linear-gradient(to bottom, $primary-color, $primary-light);
+}

@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'mixins';
+
+.platforms {
+    margin: 0 -2em -0.5em -2em;
+    min-height: 450px;
+    background: $secondary-color;
+    justify-content: center;
+    align-items: center;
+}

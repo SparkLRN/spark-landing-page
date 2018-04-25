@@ -68,14 +68,3 @@ footer.full-footer {
     padding: 0.5em;
     background-color: rgb(233, 238, 238);
 }
-/* breakpoints */
-@media only screen and (max-width: 570px) {
-    .main{
-        margin: 0 !important;
-        padding: 0 !important;
-        width: 100vw !important;
-    }
-    .navbar {
-        margin: 0 0.3em 0 0.3em;
-    }
-}
