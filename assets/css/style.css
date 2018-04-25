@@ -1,0 +1,36 @@
+/* body {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    margin: auto;
+} */
+.main {
+    margin-top: 2em;
+    border-radius: 5px 5px 0 0;
+    box-shadow: -2px 7px 66px -15px rgba(0,0,0,0.6);
+    -webkit-box-shadow: -2px 7px 66px -15px rgba(0,0,0,0.6);
+    -moz-box-shadow: -2px 7px 66px -15px rgba(0,0,0,0.6);
+}
+.content {
+    padding: 1em;
+}
+.landing {
+    min-height: 600px;
+}
+.platforms {
+    min-height: 450px;
+}
+.knowspark {
+    min-height: 300px;
+}
+footer {
+    /* height: 100px; */
+}
+/* breakpoints */
+@media only screen and (max-width: 375px) {
+    .container{
+        margin: 0;
+        padding: 0 !important;
+        width: 100vw !important;
+    }
+}
