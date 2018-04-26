@@ -1,3 +1,16 @@
+body {
+  overflow-x: hidden; }
+
+.landing .landing-anim-container, .landing .landing-anim-container .anim {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; }
+
+.landing {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+
 .main {
   border-radius: 5px 5px 0 0;
   margin-top: 3em;
@@ -9,7 +22,8 @@
 
 .navbar {
   margin: 0 -1em 0 -1em;
-  border-radius: 5px 5px 0 0; }
+  border-radius: 5px 5px 0 0;
+  z-index: 100; }
   .navbar a, .navbar .navbar-toggler {
     color: white; }
 
@@ -26,24 +40,92 @@
 
   .navbar {
     margin: 0 0.3em 0 0.3em; } }
+.landing .landing-anim-container, .landing .landing-anim-container .anim {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; }
+
 .landing {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+
+.landing {
+  position: relative;
   min-height: 750px;
   margin: -4.5em -2em 0 -2em;
   border-radius: 5px 5px 0 0;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
   justify-content: center;
   text-align: center;
   background: #cb2d3e;
   background: -webkit-linear-gradient(to top, #cb2d3e, #ef473a);
   background: linear-gradient(to top, #cb2d3e, #ef473a); }
+  .landing .landing-hero {
+    margin-top: 4em !important; }
+  .landing .landing-anim-container {
+    position: absolute;
+    bottom: 2em;
+    width: 80%;
+    max-width: 1440px;
+    justify-content: space-between; }
+    .landing .landing-anim-container .anim {
+      height: 10em;
+      width: 10em;
+      border: solid 3px #0a0908;
+      border-radius: 50%;
+      justify-content: center;
+      background-color: #cb2d3e;
+      z-index: 10; }
+    .landing .landing-anim-container .link {
+      border: 2px solid black;
+      position: absolute; }
+    .landing .landing-anim-container .hr {
+      width: 80%;
+      left: 10%;
+      top: 50%; }
+    .landing .landing-anim-container .vr {
+      display: none;
+      height: 80%;
+      top: 10%;
+      left: 50%; }
+
+/* breakpoints */
+@media only screen and (max-width: 570px) {
+  .landing {
+    padding-top: 4em; }
+    .landing .landing-anim-container {
+      position: relative; } }
+@media only screen and (max-width: 425px) {
+  .link.vr {
+    display: inline !important; }
+
+  .link.hr {
+    display: none; } }
+.landing .landing-anim-container, .landing .landing-anim-container .anim {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; }
+
+.landing {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
 
 .platforms {
   margin: 0 -2em -0.5em -2em;
   min-height: 450px;
   background: #fbe9e7;
   justify-content: center;
+  align-items: center; }
+
+.landing .landing-anim-container, .landing .landing-anim-container .anim {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; }
+
+.landing {
+  display: flex;
+  flex-flow: column;
   align-items: center; }
 
 .knowspark {
@@ -53,18 +135,20 @@
   background: -webkit-linear-gradient(to bottom, #cb2d3e, #ef473a);
   background: linear-gradient(to bottom, #cb2d3e, #ef473a); }
 
+.landing .landing-anim-container, .landing .landing-anim-container .anim {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; }
+
+.landing {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+
 .full-footer {
   min-height: 200px;
   margin: -0.95em;
   padding: 0.5em;
   background-color: #e9eeee; }
-
-/* body {
-    display: flex;
-    flex-flow: row;
-    align-content: center;
-    margin: auto;
-    background-color: #f5f5f5;
-} */
 
 /*# sourceMappingURL=base.css.map */

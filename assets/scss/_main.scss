@@ -13,6 +13,7 @@
 .navbar {
     margin: 0 -1em 0 -1em;
     border-radius: 5px 5px 0 0;
+    z-index: 100;
     a, .navbar-toggler {
         color: white;
     }

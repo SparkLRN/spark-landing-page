@@ -1,14 +1,10 @@
+body {
+    overflow-x: hidden;
+}
+
 @import 'main';
 @import 'landing';
 @import 'platforms';
 @import 'knowspark';
 @import 'footer';
 @import 'contact';
-
-/* body {
-    display: flex;
-    flex-flow: row;
-    align-content: center;
-    margin: auto;
-    background-color: #f5f5f5;
-} */

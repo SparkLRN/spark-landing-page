@@ -5,3 +5,16 @@
     background: -webkit-linear-gradient($direction, $start-color, $end-color);
     background: linear-gradient($direction, $start-color, $end-color);
 }
+
+// flex base
+%flex-box-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+%flex-box-col {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
