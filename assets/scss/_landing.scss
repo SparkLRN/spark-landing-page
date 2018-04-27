@@ -22,7 +22,6 @@
         max-width: 1440px;
         @extend %flex-box-row;
         justify-content: space-between;
-        // border: solid 1px black;
         .anim {
             height: 10em;
             width: 10em;
@@ -32,6 +31,7 @@
             justify-content: center;
             background-color: $primary-color;
             z-index: 10;
+            margin: auto;
         }
         .link {
             border: 2px solid black;
