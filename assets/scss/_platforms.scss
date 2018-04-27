@@ -5,6 +5,45 @@
     margin: 0 -2em -0.5em -2em;
     min-height: 450px;
     background: $secondary-color;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-box-col;
+    position: relative;
+    text-align: center;
+    .platforms-hero {
+        margin: 1.5em;
+    }
+    .platforms-gallery {
+        width: 100%;
+        min-height: 300px;
+        @extend %flex-box-row;
+        justify-content: center;
+        .platform-container {
+            position: relative;
+            width: 285px;
+            height: 300px;
+            margin: auto;
+            .platform-image {
+                height: 100%;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                padding: 0.1em;
+            }
+            .platform-label {
+                position: absolute;
+                height: 40%;
+                width: 100%;
+                bottom: 30%;
+                background-color: rgba($color: $secondary-color, $alpha: 0.1);
+            }
+            .platform-label:hover {
+                background-color: rgba($color: $secondary-light, $alpha: 0.3);
+            }
+        }
+    }
+    .platforms-sub-hero {
+        width: 80%;
+        justify-content: center;
+        padding: 1em;
+    }
 }
